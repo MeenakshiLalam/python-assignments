@@ -13,5 +13,19 @@ while guess != num:
     elif guess == num :
         print("congratulations! you won!")
         break
-    else:
-        print(" sorry try again!")
+
+        
+        
+  OUTPUT:
+    
+guess a number between 1 and 9 : 
+ 3
+you entered too low number 
+guess a number between 1 and 9 : 
+ 6
+you entered too high number
+guess a number between 1 and 9 : 
+ 5
+congratulations! you won!
+
+Process finished with exit code 0
