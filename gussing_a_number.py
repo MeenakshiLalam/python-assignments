@@ -1,7 +1,7 @@
 import random
 
 num = random.randint(1, 9)
-guess = None
+guess = ' '
 
 while guess != num:
     guess = int(input("guess a number between 1 and 9 : \n "))
