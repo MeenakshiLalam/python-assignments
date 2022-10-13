@@ -47,3 +47,35 @@ while next_calculation=="yes":
             break
 
 print(f"{count} calculations users did: ")
+
+
+
+OUTPUT:
+     
+list of operations
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter first number: 33
+Enter second number: 44
+33 + 44 = 77
+33 - 44 = -11
+33 * 44 = 1452
+33 / 44 = 0.75
+If you want to do next calculation? (yes/no): yes
+Enter first number: tt
+Enter second number: ii
+invalid number
+If you want to do next calculation? (yes/no): yes
+Enter first number: 22
+Enter second number: 0
+22 + 0 = 22
+22 - 0 = 22
+22 * 0 = 0
+zero division error
+22 / 0 = None
+If you want to do next calculation? (yes/no): no
+3 calculations users did: 
+
+Process finished with exit code 0
